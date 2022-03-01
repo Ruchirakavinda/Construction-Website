@@ -1,67 +1,3 @@
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-body{
-  font-family: Arial, Helvetica, sans-serif;
-}
-nav{
-  background: #383838;
-  height: 60px;
-  width: 100%;
-  position: absolute;
-  top: 0%;
-  z-index: 10;
-}
-label.logo{
-  color: white;
-  font-size: 25px;
-  line-height: 60px;
-  font-weight: bold;
-}
-nav ul{
-  float: right;
-  margin-left: 20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 60px;
-  margin: 0 5px;
-}
-
-nav ul li:hover{
-  display: inline-block;
-  line-height: 60px;
-  margin: 0 5px;
-}
-nav ul li a{
-  color: white;
-  font-size: 14px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-nav a.active,a:hover{
-  transition: .5s;
-  color: orange !important;
-  text-decoration: none;
-}
-.checkbtn{
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check{
-  display: none;
-}
-
 section{
   background: url("/assests/1.jpg") no-repeat;
   background-size: cover;
@@ -70,6 +6,7 @@ section{
   top: 0%;
   bottom: 0%;
   width: 100%;
+  text-align: center;
 }
 .coveroverlay{
   position: absolute;
@@ -78,4 +15,39 @@ section{
   width: 100%;
   width: 100%;
   background-color: #5555556c;
+  text-align: center;
+}
+
+.maintopic{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  letter-spacing: 5px;
+}
+.subtopic{
+  color: white;
+  position: absolute;
+  top:57%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+.button01{
+  position: absolute;
+  top: 65%;
+  color: white;
+  background-color: orange !important;
+  left: 40%;
+  padding: 0.5% 4%;
+  cursor: pointer;
+ 
 }

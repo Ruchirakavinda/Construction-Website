@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav{
+    background: #383838;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 10;
+  }
+  label.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-left: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  
+  nav ul li:hover{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  nav a.active,a:hover{
+    transition: .5s;
+    color: orange !important;
+    text-decoration: none;
+  }
