@@ -1,0 +1,11 @@
+.conttopic01{
+    width: 100%;
+    padding-top:8%;
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+}
+
+.mainDiv{
+    background-image: linear-gradient(rgb(190, 145, 61), rgb(71, 71, 71));
+}
