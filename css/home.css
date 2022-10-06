@@ -49,5 +49,6 @@ section{
   left: 43%;
   padding: 0.5% 4%;
   cursor: pointer;
+  border-radius: 5px;
  
 }
