@@ -1,59 +1,98 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CONSTRUCTON</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <!-- Font Awesome -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
-    rel="stylesheet"
-    />
-    <!-- MDB -->
-    <script
-    type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
-    ></script>
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8" />
+        <title>CONSTRUCTON</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/home.css" />
+        <link rel="stylesheet" href="/css/navbar.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+            rel="stylesheet"
+        />
+        <!-- MDB -->
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+        ></script>
+        <style>
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: black;
+                padding: 1rem;
+                margin: 0 0 1rem 0;
+            }
 
+            a:link {
+                color: white;
+            }
 
-    <nav>
-    <nav class="container" style="position: relative;">
-      <label class="logo"><i class="fas fa-dice-d6" style="color: orange;margin-right: 10px;"></i>LANKA CONSTRUCTON</label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="./about.html">About Us</a></li>
-        <li><a href="/service.html"> Our Services</a></li>
-        <li><a href="/pricetable.html">Price Table</a></li>
-        <li><a href="/feedback.html">Customer Feedback</a></li>
-        <li><a href="/contact.html">Contact Us</a></li>
-        <li><a href="#"><i class="fas fa-search"></i></a></li>
-      </ul>
-    </nav>
-    </nav>
+            nav ul {
+                margin-top: 1em;
+                display: flex;
+            }
+            li {
+                list-style: none;
+            }
 
+            nav li + li {
+                margin-left: 1em;
+                margin-bottom: 0.85em;
+            }
 
-    <section>
-        <div class="coveroverlay">
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .logo {
+                color: white;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <label class="logo"
+                ><i
+                    class="fas fa-dice-d6"
+                    style="color: orange; margin-right: 10px"
+                ></i
+                >LANKA CONSTRUCTON</label
+            >
+            <nav>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="/service.html"> Our Services</a></li>
+                    <li><a href="/pricetable.html">Price Table</a></li>
+                    <li><a href="/feedback.html">Customer Feedback</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <h1 class="maintopic">LANKA CONSTRUCTON</h1>
-            <p class="subtopic">SEE HOW A 10 STORIES TOWER'S BEING BUILT IN A TIME LAPS</p>
-            <div class="button01">Let's Start</div>
-        </div>
-    </section>
-  </body>
+        <section>
+            <div class="coveroverlay">
+                <h1 class="maintopic">LANKA CONSTRUCTON</h1>
+                <p class="subtopic">
+                    SEE HOW A 10 STORIES TOWER'S BEING BUILT IN A TIME LAPS
+                </p>
+                <div class="button01">Let's Start</div>
+            </div>
+        </section>
+    </body>
 </html>
